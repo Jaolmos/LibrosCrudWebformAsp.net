@@ -81,7 +81,6 @@ Public Class LibroDAO
                                 .ISBN = Convert.ToString(reader("ISBN")),
                                 .TipoID = Convert.ToInt32(reader("TipoID")),
                                 .TematicaID = Convert.ToInt32(reader("TematicaID"))}
-                            ' Nota: Aquí no estamos cargando DescripcionTipo ni DescripcionTematica porque requeriría un JOIN adicional
 
                         End If
                     End Using
