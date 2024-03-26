@@ -21,7 +21,7 @@
 
     End Sub
 
-    Protected Sub lnkBorrar_Click(sender As Object, e As EventArgs)
+    Protected Sub lnkEliminar_Click(sender As Object, e As EventArgs)
         Dim lnkButton As LinkButton = CType(sender, LinkButton)
         Dim libroId As Integer = Convert.ToInt32(lnkButton.CommandArgument)
 

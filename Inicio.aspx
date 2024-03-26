@@ -30,7 +30,7 @@
         </asp:TemplateField>
         <asp:TemplateField HeaderText="Borrar">
             <ItemTemplate>
-                <asp:LinkButton ID="lnkBorrar" runat="server" CommandName="Eliminar" CommandArgument='<%# Eval("LibroID") %>' Text="Eliminar" OnClick="lnkBorrar_Click"></asp:LinkButton>
+                <asp:LinkButton ID="lnkBorrar" runat="server" CommandName="Eliminar" CommandArgument='<%# Eval("LibroID") %>' Text="Eliminar" OnClick="lnkEliminar_Click"></asp:LinkButton>
             </ItemTemplate>
         </asp:TemplateField>
        </Columns>
