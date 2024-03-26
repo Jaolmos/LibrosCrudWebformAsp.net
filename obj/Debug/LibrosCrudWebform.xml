@@ -1,0 +1,203 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LibrosCrudWebform
+</name>
+</assembly>
+<members>
+<member name="T:LibrosCrudWebform.My.MyWebExtension">
+ <summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:LibrosCrudWebform.My.MyWebExtension.Computer">
+ <summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member>
+<member name="P:LibrosCrudWebform.My.MyWebExtension.User">
+ <summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member>
+<member name="P:LibrosCrudWebform.My.MyWebExtension.Request">
+ <summary>
+ Devuelve un objeto Request.
+ </summary>
+</member>
+<member name="P:LibrosCrudWebform.My.MyWebExtension.Response">
+ <summary>
+ Devuelve un objeto Response.
+ </summary>
+</member>
+<member name="P:LibrosCrudWebform.My.MyWebExtension.Log">
+ <summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member>
+<member name="F:LibrosCrudWebform.AgregarLibro._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.AgregarLibro._txtTitulo">
+<summary>
+Control txtTitulo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.AgregarLibro._txtAutor">
+<summary>
+Control txtAutor.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.AgregarLibro._txtISBN">
+<summary>
+Control txtISBN.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.AgregarLibro._ddlTipo">
+<summary>
+Control ddlTipo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.AgregarLibro._ddlTematica">
+<summary>
+Control ddlTematica.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.AgregarLibro._btnAgregar">
+<summary>
+Control btnAgregar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.Inicio._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.Inicio._btnIrAAgregarLibro">
+<summary>
+Control btnIrAAgregarLibro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.Inicio._GridViewLibros">
+<summary>
+Control GridViewLibros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.EditarLibro._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.EditarLibro._txtTitulo">
+<summary>
+Control txtTitulo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.EditarLibro._txtAutor">
+<summary>
+Control txtAutor.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.EditarLibro._txtISBN">
+<summary>
+Control txtISBN.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.EditarLibro._ddlTipo">
+<summary>
+Control ddlTipo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.EditarLibro._ddlTematica">
+<summary>
+Control ddlTematica.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.EditarLibro._btnActualizar">
+<summary>
+Control btnActualizar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.EditarLibro._btnCancelar">
+<summary>
+Control btnCancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>
