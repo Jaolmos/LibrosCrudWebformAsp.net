@@ -23,6 +23,15 @@ Partial Public Class Inicio
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''Control Header.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Header As Global.LibrosCrudWebform.Header
+
+    '''<summary>
     '''Control btnIrAAgregarLibro.
     '''</summary>
     '''<remarks>
@@ -39,4 +48,13 @@ Partial Public Class Inicio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents GridViewLibros As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''Control Footer.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Footer As Global.LibrosCrudWebform.Footer
 End Class

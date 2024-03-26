@@ -96,6 +96,8 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="Controls\Footer.ascx" />
+    <Content Include="Controls\Header.ascx" />
     <Content Include="Global.asax" />
     <Content Include="Inicio.aspx" />
     <Content Include="Pages\Libros\AgregarLibro.aspx" />
@@ -107,6 +109,20 @@
     <Compile Include="App_Code\Models\Tematica.vb" />
     <Compile Include="App_Code\DAO\TipoDao.vb" />
     <Compile Include="App_Code\DAO\TematicaDAO.vb" />
+    <Compile Include="Controls\Footer.ascx.designer.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Footer.ascx.vb">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Header.ascx.designer.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Header.ascx.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Pages\Libros\AgregarLibro.aspx.designer.vb">
       <DependentUpon>AgregarLibro.aspx</DependentUpon>
     </Compile>

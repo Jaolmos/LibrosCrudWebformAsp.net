@@ -1,5 +1,10 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="EditarLibro.aspx.vb" Inherits="LibrosCrudWebform.EditarLibro" %>
 
+<%@ Register Src="~/Controls/Header.ascx" TagPrefix="uc1" TagName="Header" %>
+<%@ Register Src="~/Controls/Footer.ascx" TagPrefix="uc1" TagName="Footer" %>
+
+
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -9,6 +14,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <uc1:Header runat="server" ID="Header" />
         <h2>Editar libro</h2>
         <div>
             <label for="txtTitulo">Título:</label>
@@ -30,6 +36,7 @@
 
             <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" OnClick="btnCancelar_Click" />
         </div>
+        <uc1:Footer runat="server" ID="Footer" />
     </form>
 </body>
 </html>

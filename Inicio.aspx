@@ -1,5 +1,10 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Inicio.aspx.vb" Inherits="LibrosCrudWebform.Inicio" %>
 
+<%@ Register Src="~/Controls/Header.ascx" TagPrefix="uc1" TagName="Header" %>
+<%@ Register Src="~/Controls/Footer.ascx" TagPrefix="uc1" TagName="Footer" %>
+
+
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -9,6 +14,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <uc1:Header runat="server" id="Header" />
       <div>
           <asp:Button ID="btnIrAAgregarLibro" runat="server" Text="Agregar Libro" OnClick="btnIrAAgregarLibro_Click" />
       </div>>
@@ -35,9 +41,7 @@
         </asp:TemplateField>
        </Columns>
       </asp:GridView>
-
-
-
+        <uc1:Footer runat="server" id="Footer" />
 </form>
 </body>
 </html>

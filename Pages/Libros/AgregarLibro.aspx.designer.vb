@@ -23,6 +23,15 @@ Partial Public Class AgregarLibro
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''Control Header.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Header As Global.LibrosCrudWebform.Header
+
+    '''<summary>
     '''Control txtTitulo.
     '''</summary>
     '''<remarks>
@@ -75,4 +84,13 @@ Partial Public Class AgregarLibro
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btnAgregar As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control Footer.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Footer As Global.LibrosCrudWebform.Footer
 End Class

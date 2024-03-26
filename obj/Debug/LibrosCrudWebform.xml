@@ -37,9 +37,27 @@ LibrosCrudWebform
  Devuelve el objeto de registro Asp.
  </summary>
 </member>
+<member name="F:LibrosCrudWebform.Header._HyperLinkInicio">
+<summary>
+Control HyperLinkInicio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:LibrosCrudWebform.AgregarLibro._form1">
 <summary>
 Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.AgregarLibro._Header">
+<summary>
+Control Header.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -100,9 +118,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:LibrosCrudWebform.AgregarLibro._Footer">
+<summary>
+Control Footer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:LibrosCrudWebform.Inicio._form1">
 <summary>
 Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.Inicio._Header">
+<summary>
+Control Header.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -127,9 +163,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:LibrosCrudWebform.Inicio._Footer">
+<summary>
+Control Footer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:LibrosCrudWebform.EditarLibro._form1">
 <summary>
 Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.EditarLibro._Header">
+<summary>
+Control Header.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -193,6 +247,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:LibrosCrudWebform.EditarLibro._btnCancelar">
 <summary>
 Control btnCancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:LibrosCrudWebform.EditarLibro._Footer">
+<summary>
+Control Footer.
 </summary>
 <remarks>
 Campo generado automáticamente.
