@@ -32,6 +32,10 @@
         CargarLibros()
     End Sub
 
+    Protected Sub GridViewLibros_PageIndexChanging(sender As Object, e As GridViewPageEventArgs)
+        GridViewLibros.PageIndex = e.NewPageIndex
+        CargarLibros()
+    End Sub
 
 
 End Class
