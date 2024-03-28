@@ -10,7 +10,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <title>Inicio</title>
+    <link rel="stylesheet" href="~/Content/bootstrap/css/bootstrap.min.css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -43,5 +44,6 @@
       </asp:GridView>
         <uc1:Footer runat="server" id="Footer" />
 </form>
+    <script src="~/Content/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

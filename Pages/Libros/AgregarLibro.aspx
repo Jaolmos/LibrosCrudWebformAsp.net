@@ -10,7 +10,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <title>Agregar Libro</title>
+    <link rel="stylesheet" href="~/Content/bootstrap/css/bootstrap.min.css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -36,5 +37,6 @@
         <uc1:Footer runat="server" ID="Footer" />
 
     </form>
+    <script src="~/Content/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
