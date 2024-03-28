@@ -14,6 +14,7 @@
     <form id="form1" runat="server">
         <uc1:Header runat="server" id="Header" />
         <div class="container mt-3">
+            <h2 class="text-center mb-4">Gestiona tus libros</h2>
              <div class="text-center my-3">
                 <asp:Button ID="btnIrAAgregarLibro" runat="server" Text="Agregar Libro" CssClass="btn btn-primary px-5" OnClick="btnIrAAgregarLibro_Click" />
             </div>
