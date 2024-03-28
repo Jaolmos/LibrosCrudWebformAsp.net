@@ -21,4 +21,13 @@ Partial Public Class Header
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents HyperLinkInicio As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
+    '''Control HyperLinkAgregarLibro.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents HyperLinkAgregarLibro As Global.System.Web.UI.WebControls.HyperLink
 End Class
